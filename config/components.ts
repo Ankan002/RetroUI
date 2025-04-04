@@ -55,6 +55,10 @@ export const componentConfig: {
             name: "input",
             filePath: "components/ui/Input.tsx",
         },
+        label: {
+            name: "label",
+            filePath: "components/ui/Label.tsx",
+        },
         menu: {
             name: "menu",
             filePath: "components/ui/Menu.tsx",
@@ -417,6 +421,11 @@ export const componentConfig: {
             preview: lazy(
                 () => import("@/preview/components/sonner-style-rich-colors"),
             ),
+        },
+        label: {
+            name: "label",
+            filePath: "preview/components/label.tsx",
+            preview: lazy(() => import("@/preview/components/label")),
         },
     },
 };

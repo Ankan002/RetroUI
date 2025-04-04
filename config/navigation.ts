@@ -37,6 +37,11 @@ export const navConfig: INavigationConfig = {
                     href: `${componentsRoute}/input`,
                     tag: "Updated",
                 },
+                {
+                    title: "Label",
+                    href: `${componentsRoute}/label`,
+                    tag: "New",
+                },
                 { title: "Menu", href: `${componentsRoute}/menu` },
                 { title: "Radio", href: `${componentsRoute}/radio` },
                 {
