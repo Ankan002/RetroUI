@@ -45,6 +45,11 @@ export const navConfig: INavigationConfig = {
                     tag: "New",
                 },
                 {
+                    title: "Sonner",
+                    href: `${componentsRoute}/sonner`,
+                    tag: "New",
+                },
+                {
                     title: "Switch",
                     href: `${componentsRoute}/switch`,
                     tag: "New",

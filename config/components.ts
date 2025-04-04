@@ -71,6 +71,10 @@ export const componentConfig: {
             name: "switch",
             filePath: "components/ui/Switch.tsx",
         },
+        sonner: {
+            name: "sonner",
+            filePath: "components/ui/Sonner.tsx",
+        },
         text: {
             name: "text",
             filePath: "components/ui/Text.tsx",
@@ -384,6 +388,34 @@ export const componentConfig: {
             filePath: "preview/components/toggle-style-outline-muted.tsx",
             preview: lazy(
                 () => import("@/preview/components/toggle-style-outline-muted"),
+            ),
+        },
+        "sonner-style-default": {
+            name: "sonner-style-default",
+            filePath: "preview/components/sonner-style-default.tsx",
+            preview: lazy(
+                () => import("@/preview/components/sonner-style-default"),
+            ),
+        },
+        "sonner-style-warning": {
+            name: "sonner-style-warning",
+            filePath: "preview/components/sonner-style-warning.tsx",
+            preview: lazy(
+                () => import("@/preview/components/sonner-style-warning"),
+            ),
+        },
+        "sonner-style-error": {
+            name: "sonner-style-error",
+            filePath: "preview/components/sonner-style-error.tsx",
+            preview: lazy(
+                () => import("@/preview/components/sonner-style-error"),
+            ),
+        },
+        "sonner-style-rich-colors": {
+            name: "sonner-style-rich-colors",
+            filePath: "preview/components/sonner-style-rich-colors.tsx",
+            preview: lazy(
+                () => import("@/preview/components/sonner-style-rich-colors"),
             ),
         },
     },
