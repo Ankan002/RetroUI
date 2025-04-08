@@ -43,6 +43,11 @@ export const navConfig: INavigationConfig = {
                     tag: "New",
                 },
                 { title: "Menu", href: `${componentsRoute}/menu` },
+                {
+                    title: "Popover",
+                    href: `${componentsRoute}/popover`,
+                    tag: "New",
+                },
                 { title: "Radio", href: `${componentsRoute}/radio` },
                 {
                     title: "Select",

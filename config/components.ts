@@ -63,6 +63,10 @@ export const componentConfig: {
             name: "menu",
             filePath: "components/ui/Menu.tsx",
         },
+        popover: {
+            name: "popover",
+            filePath: "components/ui/Popover.tsx",
+        },
         radio: {
             name: "radio",
             filePath: "components/ui/Radio.tsx",
@@ -274,6 +278,36 @@ export const componentConfig: {
             filePath: "preview/components/menu-style-default.tsx",
             preview: lazy(
                 () => import("@/preview/components/menu-style-default"),
+            ),
+        },
+        "popover-style-default": {
+            name: "popover-style-default",
+            filePath: "preview/components/popover-style-default.tsx",
+            preview: lazy(
+                () => import("@/preview/components/popover-style-default"),
+            ),
+        },
+        "popover-style-primary": {
+            name: "popover-style-primary",
+            filePath: "preview/components/popover-style-primary.tsx",
+            preview: lazy(
+                () => import("@/preview/components/popover-style-primary"),
+            ),
+        },
+        "popover-style-default-shadow": {
+            name: "popover-style-default-shadow",
+            filePath: "preview/components/popover-style-default-shadow.tsx",
+            preview: lazy(
+                () =>
+                    import("@/preview/components/popover-style-default-shadow"),
+            ),
+        },
+        "popover-style-primary-shadow": {
+            name: "popover-style-primary-shadow",
+            filePath: "preview/components/popover-style-primary-shadow.tsx",
+            preview: lazy(
+                () =>
+                    import("@/preview/components/popover-style-primary-shadow"),
             ),
         },
         "radio-style-default": {
