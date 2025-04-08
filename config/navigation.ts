@@ -73,6 +73,11 @@ export const navConfig: INavigationConfig = {
                     tag: "New",
                 },
                 {
+                    title: "Toggle Group",
+                    href: `${componentsRoute}/toggle-group`,
+                    tag: "New",
+                },
+                {
                     title: "Tooltip",
                     href: `${componentsRoute}/tooltip`,
                     tag: "New",

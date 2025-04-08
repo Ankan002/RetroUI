@@ -20,3 +20,4 @@ export * from "./Toggle";
 export * from "./Sonner";
 export * from "./Tooltip";
 export * from "./Popover";
+export * from "./ToggleGroup";

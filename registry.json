@@ -320,6 +320,30 @@
             ]
         },
         {
+            "name": "toggle-group",
+            "type": "registry:component",
+            "title": "Toggle Group",
+            "description": "Group of toggling buttons...🤙",
+            "dependencies": [
+                "@radix-ui/react-toggle",
+                "@radix-ui/react-toggle-group",
+                "class-variance-authority"
+            ],
+            "author": "Ankan Bhattacharya <https://github.com/ankan002>",
+            "files": [
+                {
+                    "path": "components/ui/Toggle.tsx",
+                    "target": "components/retroui/Toggle.tsx",
+                    "type": "registry:component"
+                },
+                {
+                    "path": "components/ui/ToggleGroup.tsx",
+                    "target": "components/retroui/ToggleGroup.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
             "name": "tooltip",
             "type": "registry:component",
             "title": "Tooltip",

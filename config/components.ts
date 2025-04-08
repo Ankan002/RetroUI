@@ -91,6 +91,10 @@ export const componentConfig: {
             name: "toggle",
             filePath: "components/ui/Toggle.tsx",
         },
+        "toggle-group": {
+            name: "toggle-group",
+            filePath: "components/ui/ToggleGroup.tsx",
+        },
         tooltip: {
             name: "tooltip",
             filePath: "components/ui/Tooltip.tsx",
@@ -484,6 +488,38 @@ export const componentConfig: {
             filePath: "preview/components/tooltip-style-primary.tsx",
             preview: lazy(
                 () => import("@/preview/components/tooltip-style-primary"),
+            ),
+        },
+        "toggle-group-style-default": {
+            name: "toggle-group-style-default",
+            filePath: "preview/components/toggle-group-style-default.tsx",
+            preview: lazy(
+                () => import("@/preview/components/toggle-group-style-default"),
+            ),
+        },
+        "toggle-group-style-outlined": {
+            name: "toggle-group-style-outlined",
+            filePath: "preview/components/toggle-group-style-outlined.tsx",
+            preview: lazy(
+                () =>
+                    import("@/preview/components/toggle-group-style-outlined"),
+            ),
+        },
+        "toggle-group-style-outline-muted": {
+            name: "toggle-group-style-outline-muted",
+            filePath: "preview/components/toggle-group-style-outline-muted.tsx",
+            preview: lazy(
+                () =>
+                    import(
+                        "@/preview/components/toggle-group-style-outline-muted"
+                    ),
+            ),
+        },
+        "toggle-group-style-solid": {
+            name: "toggle-group-style-solid",
+            filePath: "preview/components/toggle-group-style-solid.tsx",
+            preview: lazy(
+                () => import("@/preview/components/toggle-group-style-solid"),
             ),
         },
     },
