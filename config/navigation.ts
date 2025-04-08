@@ -67,6 +67,11 @@ export const navConfig: INavigationConfig = {
                     href: `${componentsRoute}/toggle`,
                     tag: "New",
                 },
+                {
+                    title: "Tooltip",
+                    href: `${componentsRoute}/tooltip`,
+                    tag: "New",
+                },
             ],
         },
         {

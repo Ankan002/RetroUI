@@ -215,7 +215,11 @@
             "type": "registry:component",
             "title": "Sonner",
             "description": "A beautiful toast component that can grab audience attention from any place.",
-            "dependencies": ["sonner", "lucide-react"],
+            "dependencies": [
+                "sonner",
+                "lucide-react",
+                "class-variance-authority"
+            ],
             "files": [
                 {
                     "path": "components/ui/Sonner.tsx",
@@ -282,7 +286,7 @@
         {
             "name": "toggle",
             "type": "registry:component",
-            "title": "toggle",
+            "title": "Toggle",
             "description": "This crazy toggling button keeps people toggling...😃",
             "dependencies": [
                 "@radix-ui/react-toggle",
@@ -293,6 +297,24 @@
                 {
                     "path": "components/ui/Toggle.tsx",
                     "target": "components/retroui/Toggle.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        },
+        {
+            "name": "tooltip",
+            "type": "registry:component",
+            "title": "Tooltip",
+            "description": "A cool way to give your users a hint of what a component does...😉",
+            "dependencies": [
+                "@radix-ui/react-tooltip",
+                "class-variance-authority"
+            ],
+            "author": "Ankan Bhattacharya <https://github.com/ankan002>",
+            "files": [
+                {
+                    "path": "components/ui/Tooltip.tsx",
+                    "target": "components/retroui/Tooltip.tsx",
                     "type": "registry:component"
                 }
             ]

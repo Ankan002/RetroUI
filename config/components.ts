@@ -87,6 +87,10 @@ export const componentConfig: {
             name: "toggle",
             filePath: "components/ui/Toggle.tsx",
         },
+        tooltip: {
+            name: "tooltip",
+            filePath: "components/ui/Tooltip.tsx",
+        },
     },
     examples: {
         "accordion-style-default": {
@@ -426,6 +430,27 @@ export const componentConfig: {
             name: "label",
             filePath: "preview/components/label.tsx",
             preview: lazy(() => import("@/preview/components/label")),
+        },
+        "tooltip-style-default": {
+            name: "tooltip-style-default",
+            filePath: "preview/components/tooltip-style-default.tsx",
+            preview: lazy(
+                () => import("@/preview/components/tooltip-style-default"),
+            ),
+        },
+        "tooltip-style-solid": {
+            name: "tooltip-style-solid",
+            filePath: "preview/components/tooltip-style-solid.tsx",
+            preview: lazy(
+                () => import("@/preview/components/tooltip-style-solid"),
+            ),
+        },
+        "tooltip-style-primary": {
+            name: "tooltip-style-primary",
+            filePath: "preview/components/tooltip-style-primary.tsx",
+            preview: lazy(
+                () => import("@/preview/components/tooltip-style-primary"),
+            ),
         },
     },
 };

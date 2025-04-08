@@ -18,3 +18,4 @@ export * from "./Dialog";
 export * from "./Menu";
 export * from "./Toggle";
 export * from "./Sonner";
+export * from "./Tooltip";
