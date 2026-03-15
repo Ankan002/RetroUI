@@ -30,7 +30,7 @@ async function getContributors(): Promise<
   { avatar: string; username: string; url: string }[]
 > {
   const request = await fetch(
-    `https://api.github.com/repos/Logging-Stuff/RetroUI/contributors`,
+    `https://api.github.com/repos/logging-studio/RetroUI/contributors`,
     {
       method: "GET",
       headers: {
@@ -263,7 +263,7 @@ export default async function Home() {
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4 mt-12">
           <Link
-            href="https://github.com/logging-stuff/retroui"
+            href="https://github.com/logging-studio/retroui"
             target="_blank"
             passHref
           >

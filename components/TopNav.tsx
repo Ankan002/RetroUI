@@ -63,7 +63,7 @@ export default function TopNav() {
 
           <div className="flex items-center space-x-4 lg:hidden">
             <Link
-              href="https://github.com/Logging-Stuff/retroui"
+              href="https://github.com/logging-studio/retroui"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,7 +74,7 @@ export default function TopNav() {
 
           <div className="hidden lg:flex items-center space-x-3">
             <Link
-              href="https://github.com/Logging-Stuff/retroui"
+              href="https://github.com/logging-studio/retroui"
               target="_blank"
               rel="noopener noreferrer"
             >
